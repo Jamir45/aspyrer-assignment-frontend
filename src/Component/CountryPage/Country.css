@@ -1,0 +1,64 @@
+#countryDiv{
+   margin-top: 160px !important;
+   min-height: 370px !important;
+   padding: 20px 30px !important;
+   border-radius: 20px !important;
+   position: relative !important;
+}
+input.searchBox {
+   width: 100%;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   border: none ;
+   border-radius: 18px;
+   padding: 2px 10px;
+   box-shadow: 0px 0px 3px 2px lightgrey;
+}
+input.searchBox:focus{
+   outline: none;
+}
+.countrySection{
+   height: 232px !important;
+   overflow: auto !important;
+}
+svg.MuiSvgIcon-root.addIcon {
+   cursor: pointer !important;
+   font-size: 25px !important;
+   border-radius: 50% !important;
+   transition: all 0.3s;
+   float: right !important
+}
+svg.MuiSvgIcon-root.addIcon:hover {
+   background: #f2f2f2 !important;
+}
+
+svg.MuiSvgIcon-root.closeIcon {
+   cursor: pointer;
+   font-size: 25px !important;
+   position: absolute !important;
+   top: 6px !important;
+   right: 10px !important;
+   transition: all 0.3s !important;
+   border-radius: 50% !important;
+}
+svg.MuiSvgIcon-root.closeIcon:hover {
+   background: #f2f2f2 !important;
+}
+
+.addTag:focus {
+   outline: 0 !important;
+}
+.countryTagDiv {
+   padding-top: 0.5rem;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+.countryTagName {
+   padding: 3px 12px;
+   border-radius: 6em;
+   margin: 0.2rem 0.3rem;
+   background: #c4c4c4;
+   font-size: 1rem;
+   color: rgb(83, 83, 83);
+}

@@ -1,0 +1,44 @@
+.addTag {
+   padding: 2px 10px !important;
+   text-transform: lowercase !important;
+   border-radius: 18px !important;
+   margin-left: 5px !important;
+}
+.addTag:focus {
+   outline: 0 !important;
+}
+.tagContainer {
+   padding-top: 3em;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+.tags {
+   padding: 3px 12px;
+   border-radius: 6em;
+   margin: 0.2rem 0.3rem;
+   background: #c4c4c4;
+   font-size: 1rem;
+   color: rgb(83, 83, 83);
+}
+.tagSection{
+   position: relative;
+}
+button.saveActivity {
+   position: absolute !important;
+   bottom: -25px !important;
+   right: -10px !important;
+}
+button.MuiButtonBase-root.MuiFab-root.saveActivity.MuiFab-sizeMedium.MuiFab-primary:focus {
+   outline: none;
+}
+.MuiPaper-root.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.MuiPaper-elevation24.MuiPaper-rounded {
+   width: 400px !important;
+   height: 350px !important;
+   border-radius: 16px !important;
+}
+.activitySaved {
+   font-size: 22px;
+   text-align: center;
+   padding-top: 40px;
+}

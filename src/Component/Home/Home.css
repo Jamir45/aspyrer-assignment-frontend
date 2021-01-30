@@ -1,0 +1,9 @@
+.mainBox{
+   margin-top: 220px !important;
+   min-height: 200px !important;
+   padding: 40px 30px !important;
+   border-radius: 20px !important;
+}
+label#standard-basic-label {
+   font-size: 20px !important;
+}
